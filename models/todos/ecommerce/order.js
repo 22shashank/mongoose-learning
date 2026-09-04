@@ -31,6 +31,10 @@ address:{
     types:string,
     required:true
 },
+status:{
+    type:string,
+    enum:["pending"]
+}
 
 
 
